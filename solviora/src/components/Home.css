@@ -1,0 +1,38 @@
+.header-home {
+  font-size: 50px;
+  font-weight: bold;
+  width: 1000px;
+  justify-self: center;
+}
+.header-word {
+  color: #7de2d1ff;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh; /* hero zauzima ceo ekran */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-moto {
+  font-family: "Lexend Giga", sans-serif;
+}
+.arrow-scroll {
+  position: absolute;
+  color: #7de2d1ff;
+  bottom: 50px;
+  left: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, -10px);
+  }
+}
