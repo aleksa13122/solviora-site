@@ -1,4 +1,5 @@
 import "./About.css";
+import logo from "../assets/Logosolviora.png";
 
 export default function About() {
   return (
@@ -13,7 +14,7 @@ export default function About() {
             inventore.
           </p>
           <div className="about-first-2ndcol">
-            <div>SLIKA</div>
+            <img className="about-first-image" src={logo} alt="Opis slike" />
             <h1 className="about-title">SOLVIORA</h1>
           </div>
         </div>

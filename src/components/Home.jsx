@@ -2,11 +2,15 @@ import "./Home.css";
 import { ReactTyped } from "react-typed";
 import { ArrowDownCircle } from "lucide-react";
 import { motion } from "framer-motion";
+import logo from "../assets/Logosolviora.png";
 
 export default function RotatingHeadline() {
   return (
     <div className="hero">
-      <h1 className="hero-title">SOLVIORA</h1>
+      <div className="hero-first">
+        <img className="hero-image" src={logo} alt="logo" />
+        <h1 className="hero-title">SOLVIORA</h1>
+      </div>
       <h1 className="hero-moto">
         Handcrafted <span className="header-word">Solutions </span>
         <br></br>

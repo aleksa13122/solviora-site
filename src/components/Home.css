@@ -16,11 +16,24 @@
   align-items: center;
   justify-content: center;
 }
+.hero-first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.hero-image {
+  width: 100px;
+  height: 100px;
+}
 .hero-title {
   font-family: "Lexend Giga", sans-serif;
   color: #7de2d1ff;
   font-weight: bolder;
-  margin-top: -50px;
+  font-size: 50px;
+  /* margin-top: -50px; */
   text-shadow: 0 0 13px rgba(133, 221, 206, 0.681);
 }
 .hero-moto {

@@ -8,7 +8,8 @@
   margin-top: 40px;
 }
 .about-first-text {
-  font-size: 28px;
+  font-size: 24px;
+  text-align: start;
   font-family: "Lexend Giga", sans-serif;
   color: rgb(163, 163, 163);
 }
@@ -21,9 +22,13 @@
 .about-first-2ndcol {
   display: flex;
   flex-direction: row;
-  /* background-color: blueviolet; */
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
+}
+.about-first-image {
+  height: 80px;
+  width: 80px;
+  align-self: center;
 }
 .about-title {
   font-family: "Lexend Giga", sans-serif;
