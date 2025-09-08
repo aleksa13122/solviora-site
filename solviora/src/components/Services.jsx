@@ -1,4 +1,5 @@
 import "./Services.css";
+import { logo } from "../assets/Logosolviora.png";
 
 export default function Services() {
   return (
@@ -21,7 +22,9 @@ export default function Services() {
           </p>
           <button className="cta-btn">WAAS projects</button>
         </div>
-        <div className="services-showcase-card"></div>
+        <div className="services-showcase-card">
+          <img src={logo} alt="Opis slike" />
+        </div>
         <div className="services-showcase-card"></div>
         <div className="services-showcase-text">
           <h4>Branding & Identity (Coming Soon)</h4>

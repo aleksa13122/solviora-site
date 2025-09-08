@@ -1,5 +1,5 @@
 import "./Header.css";
-import logo from "../assets/Logo solviora.png";
+import logo from "../assets/Logosolviora.png";
 
 export default function Header() {
   return (
