@@ -29,7 +29,7 @@
 }
 .project-image {
   border-radius: 20px;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 .project-image:hover {
