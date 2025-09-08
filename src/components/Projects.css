@@ -1,6 +1,6 @@
 .projects-header {
   color: #7de2d1ff;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 30px;
 }
 .projects-showcase {
@@ -8,20 +8,41 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.projects-intro-text {
+  font-size: 28px;
+  font-family: "Lexend Giga", sans-serif;
+  color: rgb(163, 163, 163);
+}
 .project {
   border-radius: 20px;
   border: 3px solid salmon;
+  overflow: hidden;
+  /* background-color: yellow; */
+}
+.project-title {
+  padding-top: 20px;
+  background-color: blueviolet;
+  border-top: 1px solid salmon;
+  /* margin-bottom: -5px; */
+  font-size: 30px;
+  color: #7de2d1ff;
 }
 .project-image {
-  /* background-color: aquamarine; */
   border-radius: 20px;
-  border: 3px solid salmon;
+  background-color: blueviolet;
+}
+
+.project-image:hover {
+  transform: scale(1.2); /* uvećanje na hover */
+  transition: transform 0.5s ease;
 }
 
 .project-text {
-  background-color: blue;
-  /* background-color: yellow; */
+  /* background-color: blue; */
+  overflow: hidden;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  /* border: 3px solid salmon; */
+  font-family: "Lexend Giga", sans-serif;
+  padding-bottom: 20px;
+  margin-top: -20px;
 }

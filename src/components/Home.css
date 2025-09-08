@@ -17,6 +17,7 @@
 }
 .hero-moto {
   font-family: "Lexend Giga", sans-serif;
+  letter-spacing: -3px;
 }
 .arrow-scroll {
   position: absolute;

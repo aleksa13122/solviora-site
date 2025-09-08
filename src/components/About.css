@@ -1,0 +1,14 @@
+.about {
+  margin-top: 100px;
+}
+
+.about-header {
+  color: #7de2d1ff;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.about-text {
+  font-size: 28px;
+  font-family: "Lexend Giga", sans-serif;
+  color: rgb(163, 163, 163);
+}

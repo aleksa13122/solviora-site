@@ -6,20 +6,68 @@ export default function Projects() {
     <>
       <div className="projects-intro">
         <h1 className="projects-header">Projects</h1>
-        <p>Take a look at our projects</p>
+        <p className="projects-intro-text">Take a look at our projects</p>
       </div>
       <div className="projects-showcase">
         <div className="project">
-          <img src={logo} alt="Opis slike" />
-          <div className="project-text">Project text</div>
+          <img className="project-image" src={logo} alt="Opis slike" />
+          <h5 className="project-title">Project name </h5>
+          <div className="project-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quae
+            tenetur sequi, excepturi beatae fuga esse debitis exercitationem
+            minus, reprehenderit sunt? Delectus distinctio dolores sunt non illo
+            quod nulla consectetur.
+          </div>
         </div>
         <div className="project">
-          <img src={logo} alt="Opis slike" />
-          <div className="project-text">Project text</div>
+          <img className="project-image" src={logo} alt="Opis slike" />
+          <h5 className="project-title">Project name </h5>
+          <div className="project-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quae
+            tenetur sequi, excepturi beatae fuga esse debitis exercitationem
+            minus, reprehenderit sunt? Delectus distinctio dolores sunt non illo
+            quod nulla consectetur.
+          </div>
         </div>
         <div className="project">
-          <img src={logo} alt="Opis slike" />
-          <div className="project-text">Project text</div>
+          <img className="project-image" src={logo} alt="Opis slike" />
+          <h5 className="project-title">Project name </h5>
+          <div className="project-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quae
+            tenetur sequi, excepturi beatae fuga esse debitis exercitationem
+            minus, reprehenderit sunt? Delectus distinctio dolores sunt non illo
+            quod nulla consectetur.
+          </div>
+        </div>
+        <div className="project">
+          <img className="project-image" src={logo} alt="Opis slike" />
+          <h5 className="project-title">Project name </h5>
+          <div className="project-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quae
+            tenetur sequi, excepturi beatae fuga esse debitis exercitationem
+            minus, reprehenderit sunt? Delectus distinctio dolores sunt non illo
+            quod nulla consectetur.
+          </div>
+        </div>
+        <div className="project">
+          <img className="project-image" src={logo} alt="Opis slike" />
+          <h5 className="project-title">Project name </h5>
+          <div className="project-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quae
+            tenetur sequi, excepturi beatae fuga esse debitis exercitationem
+            minus, reprehenderit sunt? Delectus distinctio dolores sunt non illo
+            quod nulla consectetur.
+          </div>
+        </div>
+        <div className="project">
+          <img className="project-image" src={logo} alt="Opis slike" />
+          <h5 className="project-title">Project name </h5>
+          <div className="project-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quae
+            tenetur sequi, excepturi beatae fuga esse debitis exercitationem
+            minus, reprehenderit sunt? Delectus distinctio dolores sunt non illo
+            quod nulla consectetur.
+          </div>
         </div>
       </div>
     </>

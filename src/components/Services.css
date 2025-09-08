@@ -27,6 +27,13 @@
   border-radius: 20px;
   margin-top: 20px;
   border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.services-img:hover {
+  transform: scale(1.2); /* uvećanje na hover */
+  transition: transform 0.5s ease;
 }
 .services-showcase-text {
   display: flex;

@@ -23,9 +23,11 @@ export default function Services() {
           <button className="cta-btn">WAAS projects</button>
         </div>
         <div className="services-showcase-card">
-          <img src={logo} alt="Opis slike" />
+          <img className="services-img" src={logo} alt="Opis slike" />
         </div>
-        <div className="services-showcase-card"></div>
+        <div className="services-showcase-card">
+          <img className="services-img" src={logo} alt="Opis slike" />
+        </div>
         <div className="services-showcase-text">
           <h4>Branding & Identity (Coming Soon)</h4>
           <p className="services-text brand">
@@ -42,7 +44,9 @@ export default function Services() {
           </p>
           <button className="cta-btn">Automation projects</button>
         </div>
-        <div className="services-showcase-card"></div>
+        <div className="services-showcase-card">
+          <img className="services-img" src={logo} alt="Opis slike" />
+        </div>
       </div>
     </>
   );
