@@ -1,5 +1,5 @@
 import "./Services.css";
-import { logo } from "../assets/Logosolviora.png";
+import logo from "../assets/Logosolviora.png";
 
 export default function Services() {
   return (
