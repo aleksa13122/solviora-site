@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 export default function RotatingHeadline() {
   return (
     <div className="hero">
+      <h1 className="hero-title">SOLVIORA</h1>
       <h1 className="hero-moto">
         Handcrafted <span className="header-word">Solutions </span>
         <br></br>

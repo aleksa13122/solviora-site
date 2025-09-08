@@ -7,8 +7,32 @@
   margin-bottom: 20px;
   margin-top: 40px;
 }
-.about-text {
+.about-first-text {
   font-size: 28px;
   font-family: "Lexend Giga", sans-serif;
   color: rgb(163, 163, 163);
+}
+.about-first {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* background-color: rgb(232, 149, 24); */
+  align-items: center;
+}
+.about-first-2ndcol {
+  display: flex;
+  flex-direction: row;
+  /* background-color: blueviolet; */
+  gap: 20px;
+  justify-content: center;
+}
+.about-title {
+  font-family: "Lexend Giga", sans-serif;
+  color: #7de2d1ff;
+  font-weight: bolder;
+  /* margin-top: -50px; */
+  text-shadow: 0 0 13px rgba(133, 221, 206, 0.681);
+}
+.about-third {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
