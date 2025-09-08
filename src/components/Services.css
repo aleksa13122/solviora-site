@@ -1,0 +1,57 @@
+.services-intro {
+  /* background-color: blueviolet; */
+  justify-self: center;
+  width: 90%;
+}
+.services-intro-header {
+  color: #7de2d1ff;
+  margin-bottom: -10px;
+  /* background-color: bisque; */
+}
+.services-intro-text {
+  font-size: 28px;
+  font-family: "Lexend Giga", sans-serif;
+  color: rgb(163, 163, 163);
+}
+.services-showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolone */
+  gap: 20px; /* razmak između divova */
+}
+.services-showcase-text,
+.services-showcase-card {
+  color: white;
+  height: 400px;
+}
+.services-showcase-card {
+  border-radius: 20px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+.services-showcase-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services-text {
+  font-size: 20px;
+  font-family: "Lexend Giga", sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 30px;
+  color: #339989ff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left;
+  justify-self: center;
+}
+
+.services-btn {
+  align-content: left;
+}
+.brand {
+  text-align: right;
+}

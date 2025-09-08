@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.main-header {
+  text-align: left;
+}
+/* Collor pallete */
+
+/* --night: #131515ff;
+--jet: #2b2c28ff;
+--persian-green: #339989ff;
+--tiffany-blue: #7de2d1ff;
+--snow: #fffafbff; */

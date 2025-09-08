@@ -1,0 +1,27 @@
+.projects-header {
+  color: #7de2d1ff;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.projects-showcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.project {
+  border-radius: 20px;
+  border: 3px solid salmon;
+}
+.project-image {
+  /* background-color: aquamarine; */
+  border-radius: 20px;
+  border: 3px solid salmon;
+}
+
+.project-text {
+  background-color: blue;
+  /* background-color: yellow; */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* border: 3px solid salmon; */
+}
