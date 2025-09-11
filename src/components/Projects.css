@@ -17,13 +17,12 @@
   border-radius: 20px;
   box-shadow: 0 0 14px #339989ff; /* glow na borderu */
   overflow: hidden;
-
   /* background-color: yellow; */
 }
 .project-title {
   padding-top: 20px;
   /* background-color: blueviolet; */
-  border-top: 1px solid rgb(142, 142, 142);
+  border-top: 1px solid rgba(51, 153, 138, 0.72);
   /* margin-bottom: -5px; */
   font-size: 30px;
   color: #7de2d1ff;
