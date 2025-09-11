@@ -1,9 +1,10 @@
 import "./Contact.css";
+import logo from "../assets/Logosolviora.png";
 
 export default function Contact() {
   return (
     <div className="contacts">
-      <div className="contacts-column">
+      <div className="contacts-column first">
         <div className="contacts-header">SOLVIORA</div>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat sunt
@@ -14,11 +15,18 @@ export default function Contact() {
           in
         </p>
       </div>
-      <div className="contacts-column second">
-        <h5>SERVICES</h5>
+
+      <div className="contacts-column-second services">
+        <p className="contacts-header-small">SERVICES</p>
+        <li>waas</li>
+        <li>branding</li>
+        <li>ai</li>
       </div>
-      <div className="contacts-column second">
-        <h5>CONTACTS</h5>
+      <div className="contacts-column-second">
+        <p className="contacts-header-small">CONTACTS</p>
+        <li>email</li>
+        <li>phone number</li>
+        <li>location</li>
       </div>
     </div>
   );

@@ -1,13 +1,26 @@
 .contacts {
   margin-top: 50px;
+  width: 80%;
+  justify-self: center;
   border-radius: 20px;
   box-shadow: 0 0 14px #339989ff; /* glow na borderu */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 0.5fr 0.5fr;
+}
+.contacts-column.first {
+  border-right: 1px solid rgba(50, 150, 135, 0.625);
 }
 .contacts-column {
   padding: 35px;
+}
+
+.contacts-column-second {
   text-align: start;
+  padding: 35px;
+}
+.services {
+  margin-left: 40px;
+  padding-left: 80px;
 }
 .contacts-header {
   font-family: "Lexend Giga", sans-serif;
@@ -16,6 +29,6 @@
   font-size: 25px;
   text-shadow: 0 0 13px rgba(133, 221, 206, 0.681);
 }
-.contacts-column.second {
-  padding-left: 80px;
+.contacts-header-small {
+  font-size: 20px;
 }
