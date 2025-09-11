@@ -40,4 +40,10 @@
 .about-third {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+.about-card-image {
+  height: 150px;
+  width: 150px;
 }

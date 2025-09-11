@@ -1,5 +1,8 @@
 import "./About.css";
 import logo from "../assets/Logosolviora.png";
+import smallteam from "../assets/smallteam.png";
+import established from "../assets/established.png";
+import basedin from "../assets/basedin.png";
 
 export default function About() {
   return (
@@ -18,13 +21,42 @@ export default function About() {
             <h1 className="about-title">SOLVIORA</h1>
           </div>
         </div>
-        <div className="about-second">
-          <div>SLIKA VELIKA</div>
-        </div>
         <div className="about-third">
-          <div className="about-third-card">ESTABLISHED 2025</div>
-          <div className="about-third-card">BASED IN MALTA</div>
-          <div className="about-third-card">SMALL TEAM</div>
+          <div className="about-third-card">
+            <img
+              className="about-card-image"
+              src={established}
+              alt="Opis slike"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              dolorum mollitia earum ex amet enim excepturi itaque numquam
+              facere iusto at quo omnis quos possimus pariatur non, ut totam?
+              Harum!
+            </p>
+          </div>
+          <div className="about-third-card">
+            <img className="about-card-image" src={basedin} alt="Opis slike" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              dolorum mollitia earum ex amet enim excepturi itaque numquam
+              facere iusto at quo omnis quos possimus pariatur non, ut totam?
+              Harum!
+            </p>
+          </div>
+          <div className="about-third-card">
+            <img
+              className="about-card-image"
+              src={smallteam}
+              alt="Opis slike"
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              dolorum mollitia earum ex amet enim excepturi itaque numquam
+              facere iusto at quo omnis quos possimus pariatur non, ut totam?
+              Harum!
+            </p>
+          </div>
         </div>
       </div>
     </>
