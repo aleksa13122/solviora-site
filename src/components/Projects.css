@@ -15,30 +15,25 @@
 }
 .project {
   border-radius: 20px;
-  box-shadow: 0 0 14px #339989ff; /* glow na borderu */
+  box-shadow: 0 0 14px #339989ff;
   overflow: hidden;
-  /* background-color: yellow; */
 }
 .project-title {
   padding-top: 20px;
-  /* background-color: blueviolet; */
   border-top: 1px solid rgba(51, 153, 138, 0.72);
-  /* margin-bottom: -5px; */
   font-size: 30px;
   color: #7de2d1ff;
 }
 .project-image {
   border-radius: 20px;
-  /* background-color: blueviolet; */
 }
 
 .project-image:hover {
-  transform: scale(1.2); /* uvećanje na hover */
+  transform: scale(1.2);
   transition: transform 0.5s ease;
 }
 
 .project-text {
-  /* background-color: blue; */
   overflow: hidden;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
