@@ -55,8 +55,7 @@ export default function Projects() {
           <div className="project-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quae
             tenetur sequi, excepturi beatae fuga esse debitis exercitationem
-            minus, reprehenderit sunt? Delectus distinctio dolores sunt non illo
-            quod nulla consectetur.
+            minus,
           </div>
         </div>
         <div className="project">
