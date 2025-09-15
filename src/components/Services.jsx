@@ -14,7 +14,7 @@ export default function Services() {
       </div>
       <div className="services-showcase">
         <div className="services-showcase-text">
-          <h4>WAAS</h4>
+          <h4 id="waas">WAAS</h4>
           <p className="services-text">
             Modern, responsive websites delivered on a simple subscription
             model. We design, host, and maintain your site so you can focus on
@@ -29,7 +29,7 @@ export default function Services() {
           <img className="services-img" src={logo} alt="Opis slike" />
         </div>
         <div className="services-showcase-text">
-          <h4>Branding & Identity (Coming Soon)</h4>
+          <h4 id="branding">Branding & Identity (Coming Soon)</h4>
           <p className="services-text brand">
             Build a strong brand presence with custom logos, color palettes, and
             visual systems that make your business instantly recognizable.{" "}
@@ -37,7 +37,7 @@ export default function Services() {
           <button className="cta-btn">Branding projects</button>
         </div>
         <div className="services-showcase-text">
-          <h4>AI Automation (Coming Soon)</h4>
+          <h4 id="ai">AI Automation (Coming Soon)</h4>
           <p className="services-text">
             Leverage AI to automate customer support, content creation, and
             business workflows. Save time, cut costs, and scale smarter.{" "}

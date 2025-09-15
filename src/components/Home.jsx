@@ -39,7 +39,7 @@ export default function RotatingHeadline() {
           onClick={() => {
             const el = document.getElementById("services");
             window.scrollTo({
-              top: el.offsetTop - 140, // minus 80px da se spusti
+              top: el.offsetTop - 140,
               behavior: "smooth",
             });
           }}

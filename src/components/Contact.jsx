@@ -18,15 +18,21 @@ export default function Contact() {
 
       <div className="contacts-column-second services">
         <p className="contacts-header-small">SERVICES</p>
-        <li>waas</li>
-        <li>branding</li>
-        <li>ai</li>
+        <li>
+          <a href="#waas">waas</a>
+        </li>
+        <li>
+          <a href="#branding">branding</a>
+        </li>
+        <li>
+          <a href="#ai">ai</a>
+        </li>
       </div>
       <div className="contacts-column-second">
         <p className="contacts-header-small">CONTACTS</p>
-        <li>email</li>
-        <li>phone number</li>
-        <li>location</li>
+        <a>email</a>
+        <a>phone number</a>
+        <a>location</a>
       </div>
     </div>
   );
