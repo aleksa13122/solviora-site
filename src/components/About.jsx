@@ -7,7 +7,7 @@ import basedin from "../assets/basedin.png";
 export default function About() {
   return (
     <>
-      <div className="about">
+      <div className="about" id="about">
         <h1 className="about-header">About Us</h1>{" "}
         <div className="about-first">
           <p className="about-first-text">

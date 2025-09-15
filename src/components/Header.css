@@ -31,8 +31,6 @@
 .btn-nav {
   background: none;
   font-size: large;
-}
-.btn-nav {
   position: relative;
   background: none;
   border: none;
@@ -60,7 +58,9 @@
 .btn-nav:hover::after {
   width: 100%;
 }
-
+.btn-nav:hover {
+  color: white;
+}
 .btn-nav:active {
   transform: scale(0.85); /* klik efekat – malo umanjenje */
   transition: transform 0.3s ease;

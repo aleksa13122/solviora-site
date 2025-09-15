@@ -3,7 +3,7 @@ import logo from "../assets/Logosolviora.png";
 
 export default function Contact() {
   return (
-    <div className="contacts">
+    <div className="contacts" id="contact">
       <div className="contacts-column first">
         <div className="contacts-header">SOLVIORA</div>
         <p>

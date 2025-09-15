@@ -4,7 +4,7 @@ import logo from "../assets/Logosolviora.png";
 export default function Projects() {
   return (
     <>
-      <div className="projects-intro">
+      <div id="projects" className="projects-intro">
         <h1 className="projects-header">Projects</h1>
         <p className="projects-intro-text">Take a look at our projects</p>
       </div>
